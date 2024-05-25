@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, useLocation, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 
 export default function Navbar() {
@@ -17,7 +17,7 @@ export default function Navbar() {
                         <Link className="nav-link active" aria-current="page" to="/">Home</Link>
                         </li>
                         <li className="nav-item">
-                        <Link className="nav-link" to="/about">About</Link>
+                            <Link className="nav-link" to="/about">About</Link>
                         </li>
                     </ul>
                     <div>
